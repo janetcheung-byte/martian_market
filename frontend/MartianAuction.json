@@ -7,7 +7,6 @@
 				"type": "address"
 			}
 		],
-		"payable": false,
 		"stateMutability": "nonpayable",
 		"type": "constructor"
 	},
@@ -50,16 +49,13 @@
 		"type": "event"
 	},
 	{
-		"constant": false,
 		"inputs": [],
 		"name": "auctionEnd",
 		"outputs": [],
-		"payable": false,
 		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
-		"constant": true,
 		"inputs": [],
 		"name": "beneficiary",
 		"outputs": [
@@ -69,12 +65,10 @@
 				"type": "address"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": false,
 		"inputs": [
 			{
 				"internalType": "address payable",
@@ -84,12 +78,10 @@
 		],
 		"name": "bid",
 		"outputs": [],
-		"payable": true,
 		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
-		"constant": true,
 		"inputs": [],
 		"name": "ended",
 		"outputs": [
@@ -99,12 +91,10 @@
 				"type": "bool"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": true,
 		"inputs": [],
 		"name": "highestBid",
 		"outputs": [
@@ -114,12 +104,10 @@
 				"type": "uint256"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": true,
 		"inputs": [],
 		"name": "highestBidder",
 		"outputs": [
@@ -129,12 +117,10 @@
 				"type": "address"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": true,
 		"inputs": [
 			{
 				"internalType": "address",
@@ -150,12 +136,10 @@
 				"type": "uint256"
 			}
 		],
-		"payable": false,
 		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": false,
 		"inputs": [],
 		"name": "withdraw",
 		"outputs": [
@@ -165,7 +149,6 @@
 				"type": "bool"
 			}
 		],
-		"payable": false,
 		"stateMutability": "nonpayable",
 		"type": "function"
 	}
